@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>KrishiBot Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>KrishiBot Dashboard</h1>
+  <p>Welcome, Farmer!</p>
+
+  <div class="form-card">
+    <h3>Crop Sale Form</h3>
+    <select id="crop">
+      <option value="onion">Onion</option>
+      <option value="tomato">Tomato</option>
+    </select>
+    <input type="number" id="quantity" placeholder="Quantity in kg" />
+    <input type="text" id="location" placeholder="Location" />
+    <button onclick="predictPrice()">Predict Price</button>
+  </div>
+
+  <div class="result-card" id="priceOutput"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

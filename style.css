@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f3f8f3;
+}
+
+.form-card, .result-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
